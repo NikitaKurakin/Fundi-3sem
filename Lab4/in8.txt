@@ -1,0 +1,5 @@
+#define all noll
+#define hello goodbye
+hello fgdrg all hello 
+all hello hello 
+all
