@@ -1,0 +1,16 @@
+Rand A, 20, -5, 10;
+Stat A;
+print a, all;
+Sort A-;
+print a, all;
+permute a;
+Sort A+;
+print a, all;
+save a, in.txt
+load b, in.txt
+print b, all;
+print b, 2, 5;
+permute a;
+print a, all;
+free(a);
+free(b);
