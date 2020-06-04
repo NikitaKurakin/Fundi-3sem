@@ -1,0 +1,4 @@
+A(B(C,D),E)
+A (B (E (G, T, R (W, Z)), F (L, M)), C (N, O))
+A(A,B)
+A(C,B(F))
