@@ -1,0 +1,7 @@
+prior=0 task="Задание 1"
+prior=0 task="Задание 3"
+prior=5 task="Задание 2"
+prior=2 task="Задание 4"
+prior=3 task="Задание 3"
+prior=3 task="Задание 3"
+prior=2 task="Задание 5"
