@@ -1,0 +1,8 @@
+a->()in;
+b->()in;
+ABC->(a,b)sum;
+(abc)show;
+D->(A,B)<>;
+C->(ABC, D)minus;
+(D)show;
+(C)show;
