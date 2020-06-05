@@ -1,0 +1,7 @@
+Add(2x^2-x+2,-x^2+3x-1);
+Sub(2x^3+x^2+5,4x^3-5x);
+Mult(3x);
+Diff(3x^3+5x^2+5);
+Eval(4);
+Div(x^2-4,x-2);
+Mod(x);
