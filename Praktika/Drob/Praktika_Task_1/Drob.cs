@@ -102,6 +102,11 @@ namespace Praktika_Task_1
                 throw new ArgumentException("Дробь не может не существовать");
             }
 
+            if (second._chisl == 0)
+            {
+                throw new DivideByZeroException();
+            }
+
             return new Drob(first._chisl * second._znam, first._znam * second._chisl);
         }
 
@@ -112,7 +117,7 @@ namespace Praktika_Task_1
                 throw new ArgumentException("Дробь не может не существовать");
             }
 
-            if(pow < 0 && this._chisl < 0)
+            if(pow < 0 && this._chisl == 0)
             {
                 throw new ArithmeticException("Нельзя возводить ноль в отрицательную степень");
                 return this;
@@ -340,13 +345,13 @@ namespace Praktika_Task_1
         public override bool Equals(object obj)
         {
             if (obj is null)
-            {
-                throw new ArgumentNullException(nameof(obj));
-
-            }
+                return false;
 
             if (obj is Drob other)
                 return Equals(other);
+
+            if (obj is BigInteger other1)
+                return Equals(other1);
 
             return false;
         }
@@ -357,6 +362,11 @@ namespace Praktika_Task_1
                 throw new ArgumentNullException(nameof(other));
 
             return (_chisl == other._chisl && _znam == other._znam);
+        }
+
+        public bool Equals(BigInteger other)
+        {
+            return (_chisl == other * _znam);
         }
 
         public static bool operator ==(Drob first, Drob second)
@@ -375,9 +385,28 @@ namespace Praktika_Task_1
             }
         }
 
+        public static bool operator ==(Drob first, BigInteger second)
+        {
+            if (first is null)
+            {
+                throw new ArgumentNullException();
+            }
+            else if (first is object)
+            {
+                return first.Equals(second);
+            }
+
+            return false;
+        }
+
         public static bool operator !=(Drob first, Drob second)
         {
             return !(first == second);
+        }
+
+        public static bool operator !=(Drob first, BigInteger second)
+        {
+            return !(first._chisl == second * first._znam);
         }
 
         public static bool operator >(Drob first, Drob second)
