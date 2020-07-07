@@ -1,0 +1,11 @@
+C:\Users\PLEASE_9\source\repos\Praktika_Task_1\bin\Debug\netcoreapp3.1\Praktika_Task_1.exe
+C:\Users\PLEASE_9\source\repos\Praktika_Task_1\bin\Debug\netcoreapp3.1\Praktika_Task_1.deps.json
+C:\Users\PLEASE_9\source\repos\Praktika_Task_1\bin\Debug\netcoreapp3.1\Praktika_Task_1.runtimeconfig.json
+C:\Users\PLEASE_9\source\repos\Praktika_Task_1\bin\Debug\netcoreapp3.1\Praktika_Task_1.runtimeconfig.dev.json
+C:\Users\PLEASE_9\source\repos\Praktika_Task_1\bin\Debug\netcoreapp3.1\Praktika_Task_1.dll
+C:\Users\PLEASE_9\source\repos\Praktika_Task_1\bin\Debug\netcoreapp3.1\Praktika_Task_1.pdb
+C:\Users\PLEASE_9\source\repos\Praktika_Task_1\obj\Debug\netcoreapp3.1\Praktika_Task_1.csprojAssemblyReference.cache
+C:\Users\PLEASE_9\source\repos\Praktika_Task_1\obj\Debug\netcoreapp3.1\Praktika_Task_1.AssemblyInfoInputs.cache
+C:\Users\PLEASE_9\source\repos\Praktika_Task_1\obj\Debug\netcoreapp3.1\Praktika_Task_1.AssemblyInfo.cs
+C:\Users\PLEASE_9\source\repos\Praktika_Task_1\obj\Debug\netcoreapp3.1\Praktika_Task_1.dll
+C:\Users\PLEASE_9\source\repos\Praktika_Task_1\obj\Debug\netcoreapp3.1\Praktika_Task_1.pdb
