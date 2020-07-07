@@ -20,7 +20,7 @@ namespace Praktika_Task_1
         {
             if (znam == 0)
             {
-                throw new DivideByZeroException("Знаменатель не может быть равен 0!");
+                throw new ArgumentException("Знаменатель не может быть равен 0!");
             }
             else if (chisl == 0)
             {
