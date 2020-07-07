@@ -67,6 +67,11 @@ namespace Praktika_Task_2
                 throw new ArgumentNullException();
             }
 
+            if (second._real == 0 && second._imag == 0)
+            {
+                throw new DivideByZeroException();
+            }
+
             return new Complex((first._real * second._real + first._imag * second._imag) /
                                (second._real.Pow(2) + second._imag.Pow(2)),
                         (first._imag * second._real - first._real * second._imag) /
